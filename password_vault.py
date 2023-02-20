@@ -5,7 +5,7 @@ from tkinter import *
 from tkinter import simpledialog
 from tkinter import ttk
 
-from passgen import passGenerator
+from password_generator import passGenerator
 
 # Database Code (you can rename your database file to something less obvious)
 with sqlite3.connect("password_vault.db") as db:
